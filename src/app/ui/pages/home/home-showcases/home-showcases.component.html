@@ -1,0 +1,25 @@
+<div class="tb-position--relative main current" ngClass.xs="xs" ngClass.sm="sm" #animRefView>
+
+    <div class="tb-container tb-position--relative container">
+        <div fxLayout="column" fxLayoutAlign="start stretch">
+
+
+            <div ngClass.gt-xs="tb-height--64" ngClass.xs="tb-height--20"></div>
+
+            <h2 [@transitionText]="{value:_mTriggerAnim, params:{animDelay:100}}" ngClass.gt-sm="current-typo--h3-light"
+                ngClass.sm="current-typo--h3-light" ngClass.xs="current-typo--h4">Internships.</h2>
+            <div ngClass.gt-xs="tb-height--48" ngClass.xs="tb-height--20"></div>
+
+            <app-client-apps></app-client-apps>
+
+          
+            <div ngClass.gt-xs="tb-height--64" ngClass.xs="tb-height--24"></div>
+
+            <app-my-apps></app-my-apps>
+
+            <div ngClass.gt-xs="tb-height--64" ngClass.xs="tb-height--20"></div>
+            <div ngClass.gt-xs="tb-height--36" ngClass.xs="tb-height--24"></div>
+
+        </div>
+    </div>
+</div>
